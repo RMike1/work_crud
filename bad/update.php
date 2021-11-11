@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         description = :description, 
                                         price = :price WHERE id = :id");
         $statement->bindValue(':title', $title);
-        $statement->bindValue(':image', $imagepath);
+        $statement->bindValue(':image', $imagePath);
         $statement->bindValue(':description', $description);
         $statement->bindValue(':price', $price);
         $statement->bindValue(':id', $id);
