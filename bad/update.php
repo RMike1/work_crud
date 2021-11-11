@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $price = $_POST['price'];
 
     $image = $_FILES['image'] ?? null;
-    $imagePath = '../';
+    $imagePath = '';
 
     if (!is_dir('images')) {
         mkdir('images');
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         description = :description, 
                                         price = :price WHERE id = :id");
         $statement->bindValue(':title', $title);
-        $statement->bindValue(':image', $imagePath);
+        $statement->bindValue(':image', $imagepath);
         $statement->bindValue(':description', $description);
         $statement->bindValue(':price', $price);
         $statement->bindValue(':id', $id);
