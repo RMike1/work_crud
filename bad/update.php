@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $price = $_POST['price'];
 
     $image = $_FILES['image'] ?? null;
-    $imagePath = '';
+    $imagePath = '../';
 
     if (!is_dir('images')) {
         mkdir('images');
