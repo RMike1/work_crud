@@ -20,14 +20,14 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="app.css" rel="stylesheet"/>
+		  <link rel="stylesheet" href="app.css" />
     <title>Products CRUD</title>
 </head>
 <body>
 <h1>PRODUCTS CRUD</h1>
 
 <p>
-    <a href="create.php" type="button" class="btn btn-sm btn-success">+ Product</a>
+    <a href="create.php" type="button" class="btn btn-sm btn-success">+ Item</a>
 </p>
 <table class="table">
     <thead>
@@ -49,7 +49,8 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
                     <img src="<?php echo $product['image'] ?>" alt="<?php echo $product['title'] ?>" class="product-img">
                 <?php endif; ?>
             </td>
-             <td><?php echo $product['price'] ?></td>
+            <td><?php echo $product['title'] ?></td>
+            <td><?php echo $product['price'] ?></td>
             <td><?php echo $product['create_date'] ?></td>
             <td>
                 <a href="update.php?id=<?php echo $product['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
