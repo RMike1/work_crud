@@ -1,9 +1,10 @@
 body {
-	padding: 50px;
+	padding: 150px;
+	background-color: #b1a5a9
 }
 
 .product-img {
-	width: 50px;
+	width: 150px;
 }
 .product-img-view {
 	width: 120px;

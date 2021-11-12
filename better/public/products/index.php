@@ -19,7 +19,10 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <?php require_once '../../views/partials/header.php'; ?>
-<h1>Products CRUD</h1>
+<html>
+	<link href="app.css" rel="stylesheet"/>
+<body style="background-color: #5b5a5a">
+<h1 style="color: white">PRODUCTS CRUD</h1>
 
 <p>
     <a href="/products/create.php" type="button" class="btn btn-sm btn-success">Add Product</a>
@@ -32,7 +35,7 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
       </div>
     </div>
 </form>
-<table class="table">
+<table class="table" style="color: #ffffff">
     <thead>
     <tr>
         <th scope="col">#</th>

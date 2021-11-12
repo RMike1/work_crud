@@ -49,8 +49,7 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
                     <img src="<?php echo $product['image'] ?>" alt="<?php echo $product['title'] ?>" class="product-img">
                 <?php endif; ?>
             </td>
-            <td><?php echo $product['title'] ?></td>
-            <td><?php echo $product['price'] ?></td>
+             <td><?php echo $product['price'] ?></td>
             <td><?php echo $product['create_date'] ?></td>
             <td>
                 <a href="update.php?id=<?php echo $product['id'] ?>" class="btn btn-sm btn-outline-primary">Edit</a>
