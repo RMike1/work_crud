@@ -1,0 +1,23 @@
+
+<codestructure version="1.11.1">
+<phptree>
+<treenode node="../../database.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better\public\products\update.php;f21;3;39;3;;C:\xampp\htdocs\work_crud\better\public\products\index.php;f21;4;39;4;;C:\xampp\htdocs\work_crud\better\public\products\delete.php;f21;3;39;3;;C:\xampp\htdocs\work_crud\better\public\products\create.php;f21;3;39;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="../../functions.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better\public\products\update.php;f14;2;33;2;;C:\xampp\htdocs\work_crud\better\public\products\index.php;f14;2;33;2;;C:\xampp\htdocs\work_crud\better\public\products\delete.php;f14;2;33;2;;C:\xampp\htdocs\work_crud\better\public\products\create.php;f14;2;33;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="../../validate_product.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better\public\products\update.php;f18;23;44;23;;C:\xampp\htdocs\work_crud\better\public\products\create.php;f18;15;44;15;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="../../views/partials/header.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better\public\products\update.php;f20;43;51;43;;C:\xampp\htdocs\work_crud\better\public\products\index.php;f20;20;51;20;;C:\xampp\htdocs\work_crud\better\public\products\create.php;f20;34;51;34;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="../../views/products/form.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better\public\products\update.php;f20;50;49;50;;C:\xampp\htdocs\work_crud\better\public\products\create.php;f20;37;49;37;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="functions.php;PHP:PHP Include;C:\xampp\htdocs\work_crud\better1\views\partials \update.php;f14;2;27;2;;C:\xampp\htdocs\work_crud\bad\update.php;f14;2;27;2;;C:\xampp\htdocs\work_crud\bad\create.php;f14;2;27;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l">
+</treenode>
+<treenode node="randomString;PHP:Function Name;C:\xampp\htdocs\work_crud\better1\views\partials \update.php;f0;69;30;69;;C:\xampp\htdocs\work_crud\better\functions.php;f0;3;1;13;;C:\xampp\htdocs\work_crud\bad\functions.php;f0;2;1;12;;;;vpos;;v;;a;;r;;d25,69;;b0,0;;m0;;e0;;i0;;o;;k;;ln;;p;;x">
+</treenode>
+</phptree>
+<jstree>
+</jstree>
+<pythontree>
+</pythontree>
+</codestructure>

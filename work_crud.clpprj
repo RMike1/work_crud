@@ -1,9 +1,48 @@
 <?xml version='1.0' encoding='utf-8'?>
-<project name="C:/xampp/htdocs/work_crud/work_crud.clpprj">
+<project name="C:\xampp\htdocs\work_crud\work_crud.clpprj">
  <settings>
   <PM_URL><![CDATA[http://localhostC:/xampp/htdocs/work_crud]]></PM_URL>
   <PM_HOME_URL><![CDATA[http://localhostC:/xampp/htdocs/work_crud]]></PM_HOME_URL>
   <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
   <PM_LANGUAGE><![CDATA[]]></PM_LANGUAGE>
  </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="C:\xampp\htdocs\work_crud\bad\delete.php"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.12.0"/>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file crc="1636661977415" name="C:\xampp\htdocs\work_crud\better1\views\partials \update.php"/>
+  <file crc="1636661980625" name="C:\xampp\htdocs\work_crud\better1\views\partials \header.php"/>
+  <file crc="1602474111000" name="C:\xampp\htdocs\work_crud\better\views\products\form.php"/>
+  <file crc="1602474111000" name="C:\xampp\htdocs\work_crud\better\views\partials\header.php"/>
+  <file crc="1636705233100" name="C:\xampp\htdocs\work_crud\better\public\products\update.php"/>
+  <file crc="1636707784620" name="C:\xampp\htdocs\work_crud\better\public\products\index.php"/>
+  <file crc="1636704895753" name="C:\xampp\htdocs\work_crud\better\public\products\delete.php"/>
+  <file crc="1636704630880" name="C:\xampp\htdocs\work_crud\better\public\products\create.php"/>
+  <file crc="1636702874176" name="C:\xampp\htdocs\work_crud\better\public\products\app.css"/>
+  <file crc="1636702874176" name="C:\xampp\htdocs\work_crud\better\public\app.css"/>
+  <file crc="1636624220793" name="C:\xampp\htdocs\work_crud\better\validate_product.php"/>
+  <file crc="1636625036098" name="C:\xampp\htdocs\work_crud\better\functions.php"/>
+  <file crc="1636624454698" name="C:\xampp\htdocs\work_crud\better\database.php"/>
+  <file crc="1636661985097" name="C:\xampp\htdocs\work_crud\bad\update.php"/>
+  <file crc="1636709271595" name="C:\xampp\htdocs\work_crud\bad\index.php"/>
+  <file crc="1636700922396" name="C:\xampp\htdocs\work_crud\bad\functions.php"/>
+  <file crc="1636662016793" name="C:\xampp\htdocs\work_crud\bad\delete.php"/>
+  <file crc="1636662011979" name="C:\xampp\htdocs\work_crud\bad\create.php"/>
+  <file crc="1636662958568" name="C:\xampp\htdocs\work_crud\bad\app.css"/>
+ </filescache>
 </project>
