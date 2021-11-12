@@ -18,18 +18,18 @@ $products = $statement->fetchAll(PDO::FETCH_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		  <link rel="stylesheet" href="app.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="app.css" rel="stylesheet"/>
     <title>Products CRUD</title>
 </head>
-<body>
+<body style="background-color: #4a4a4a; color:#ffffff">
 <h1>PRODUCTS CRUD</h1>
 
 <p>
     <a href="create.php" type="button" class="btn btn-sm btn-success">+ Item</a>
 </p>
-<table class="table">
+<table class="table" style="color: #ffffff">
     <thead>
     <tr>
         <th scope="col">#</th>
